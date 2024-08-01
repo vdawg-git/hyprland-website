@@ -1,6 +1,4 @@
-# Frontmatter
-
-The `.md` files can have the following meta data:
+# Plugins
 
 - name: Name of the plugin
 - tagline: Very concise description of the plugin

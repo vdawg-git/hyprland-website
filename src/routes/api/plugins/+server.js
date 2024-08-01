@@ -1,21 +1,9 @@
 import { json } from '@sveltejs/kit'
+import pluginsJson from '../../../content/plugins.json'
 
 /** Get the plugins of the `content/plugins/` directory */
 async function getPlugins() {
-	const plugins = Object.entries(import.meta.glob('/src/content/plugins/*.md', { eager: true }))
-		.flatMap(([path, { metadata }]) => {
-			const slug = path.split('/').at(-1)?.replace('.md', '')
-
-			// Filter out the `readme.md`
-			if (slug === 'readme') return []
-
-			if (!slug || !path) {
-				console.error(`Invalid file ${path} ${JSON.stringify({ ...metadata, slug })}`)
-				return []
-			}
-
-			return { slug, ...metadata }
-		})
+	const plugins = pluginsJson
 		.sort(
 			(a, b) =>
 				(b.featured ?? 0) - (a.featured ?? 0) ||
