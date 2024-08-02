@@ -7,6 +7,7 @@
 	import PreviewRiceSlice from './home-slices/PreviewRiceSlice.svelte'
 	import PluginsSlice from './home-slices/PluginsSlice.svelte'
 	import NewsSlice from './home-slices/NewsSlice.svelte'
+	import WhatIsTwm from './home-slices/WhatIsTWM.svelte'
 
 	export let data
 </script>
@@ -18,6 +19,8 @@
 		<PreviewRiceSlice class="mb-12" />
 
 		<FeaturesSlice />
+
+		<WhatIsTwm />
 
 		<PluginsSlice />
 
