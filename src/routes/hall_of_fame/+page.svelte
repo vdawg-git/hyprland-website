@@ -1,5 +1,5 @@
 <script>
-	import Title from '$lib/components/Title.svelte'
+	import Title from '$lib/components/Title/TitleWrapper.svelte'
 	import Contest from './Contest.svelte'
 	import FamedRice from './FamedRice.svelte'
 

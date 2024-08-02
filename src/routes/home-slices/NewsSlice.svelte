@@ -1,6 +1,6 @@
 <script>
 	import NewsThumb from '$lib/components/news-thumb.svelte'
-	import Title from '$lib/components/Title.svelte'
+	import Title from '$lib/components/Title/TitleWrapper.svelte'
 
 	export let news
 </script>

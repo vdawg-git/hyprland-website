@@ -7,7 +7,7 @@
 	import DiscordIcon from '~icons/prime/discord'
 	import DiscordProfilePicture from '$lib/components/DiscordProfilePicture.svelte'
 	import { onMount, setContext } from 'svelte'
-	import Title from '$lib/components/Title.svelte'
+	import Title from '$lib/components/Title/TitleWrapper.svelte'
 	import background from '$lib/images/community-bg.webp'
 	import amongUsGreenImage from '$lib/images/amongus/green.webp'
 	import { discordLink } from '$lib/constants.mjs'

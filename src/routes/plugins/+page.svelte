@@ -1,5 +1,5 @@
 <script>
-	import Title from '$lib/components/Title.svelte'
+	import Title from '$lib/components/Title/TitleWrapper.svelte'
 	import CardsContainer from '$lib/components/CardsContainer.svelte'
 	import PluginCard from './PluginCard.svelte'
 	import clsx from 'clsx'

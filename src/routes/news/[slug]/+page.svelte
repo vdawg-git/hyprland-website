@@ -1,6 +1,6 @@
 <script>
 	import { formatDate } from '$lib/Helper'
-	import Title from '$lib/components/Title.svelte'
+	import Title from '$lib/components/Title/TitleWrapper.svelte'
 	import NewsThumb from '$lib/components/news-thumb.svelte'
 
 	export let data

@@ -6,7 +6,7 @@
 	import suseLogo from '$lib/images/logos/opensuse.svg'
 	import DistroOption from './DistroOption.svelte'
 	import Button from '$lib/components/Button.svelte'
-	import Title from '$lib/components/Title.svelte'
+	import Title from '$lib/components/Title/TitleWrapper.svelte'
 	import amongus from '$lib/images/amongus/green.webp'
 	import CommandButton from '$lib/components/CommandButton.svelte'
 </script>

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { animateIn } from '$lib/Helper.mjs'
 	import Button from '$lib/components/Button.svelte'
-	import Title from '$lib/components/Title.svelte'
+	import Title from '$lib/components/Title/TitleWrapper.svelte'
 	import FameRicePreview from './FameRicePreview.svelte'
 </script>
 

@@ -6,7 +6,7 @@
 	import TabIcon from '~icons/gg/tab'
 	import IpcIcon from '~icons/gg/media-podcast'
 	import TouchpadIcon from '~icons/gg/touchpad'
-	import Title from '$lib/components/Title.svelte'
+	import Title from '$lib/components/Title/TitleWrapper.svelte'
 	import Hypractive from './Hypractive.svelte'
 	import configDefaultImage from '$lib/images/features/config_default.webp'
 	import configHoverImage from '$lib/images/features/config_hover.webp'
