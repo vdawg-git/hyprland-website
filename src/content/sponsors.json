@@ -1,0 +1,14 @@
+{
+	"diamond": [],
+	"platinum": [
+		{
+			"name": "37Signals",
+			"image": "https://37signals.com/assets/images/logo.svg",
+			"slogan": "37 signals, however, remain unexplained.",
+			"link": "https://37signals.com/"
+		}
+	],
+	"gold": [],
+	"silver": [],
+	"bronze": []
+}
